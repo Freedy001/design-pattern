@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+
+    <bean id="userDao" class="com.freedy.spring.dao.impl.UserDaoImpl">
+        <property name="username" value="小明"/>
+        <property name="password" value="123456"/>
+    </bean>
+
+    <bean id="userService" class="com.freedy.spring.service.impl.UserServiceImpl">
+        <property name="userDao" ref="userDao"/>
+    </bean>
+
+
+</beans>
