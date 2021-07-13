@@ -18,6 +18,9 @@
         <language minSize="121" name="Java" />
       </Languages>
     </inspection_tool>
+    <inspection_tool class="EmptyStatementBody" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="m_reportEmptyBlocks" value="true" />
+    </inspection_tool>
     <inspection_tool class="InstantiationOfUtilityClass" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="JavaDoc" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="TOP_LEVEL_CLASS_OPTIONS">
